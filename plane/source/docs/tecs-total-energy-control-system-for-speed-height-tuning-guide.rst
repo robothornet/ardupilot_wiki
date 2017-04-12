@@ -67,7 +67,7 @@ can dial the numbers in over a number of flights, using the log data.
    ``ARSPD_FBW_MAX`` should be set to the maximum speed your aircraft is
    capable of in level flight with the throttle set to ``THR_MAX``.
    ``ARSPD_FBW_MIN`` should be set to the slowest speed your aircraft
-   can safely fly without stalling in level flight.
+   can safely fly without stalling in level flight. Use MANUAL mode to determine ``ARSPD_FBW_MIN``, since Arduplane can't control a stalled aircraft in FBWA.
 #. Set the maximum pitch angle :ref:`LIM_PITCH_MAX <tecs-total-energy-control-system-for-speed-height-tuning-guide_lim_pitch_max>` (in
    centi-degrees) your aircraft can fly with the throttle set to
    ``THR_MAX``. This can be determined by performing maximum pitch angle
